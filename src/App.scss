@@ -1,0 +1,95 @@
+.App {
+	text-align: center;
+	background-color: #282c34;
+}
+
+.header {
+	position: fixed;
+    height: 68px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #1a1a1a;
+    color: wheat;
+	
+	h1 {
+		font-size: 16px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-weight: 100;
+	}
+	h2 {
+		font-size: 12px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-weight: 100;
+	}
+}
+
+.random5 {
+	position: fixed;
+    bottom: 22px;
+    right: 32px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 6px solid white;
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.footer {
+	position: fixed;
+    height: 68px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1a1a1a;
+    color: wheat;
+	
+	h1 {
+		font-size: 16px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-weight: 100;
+	}
+	h2 {
+		font-size: 12px;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-weight: 100;
+	}
+}
+
+.card-section {
+	padding: 16px;
+
+	.card-container {
+			
+		.card {
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			font-size: calc(10px + 2vmin);
+			color: white;
+			margin: 50px 0;
+			padding: 16px;
+			font-weight: bold;
+
+			.derivation {
+				font-family: monospace;
+				font-size: 18px;
+			}
+		}
+
+		.no-cards {
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: white;
+			font-size: 24px;
+		}
+	}
+
+}
